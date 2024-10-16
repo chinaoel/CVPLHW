@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 Step 3: Prepare Dataset
 Place your dataset in the data/ folder. Your dataset must have the following structure:
-
+```
 .
 ├── data
 │   ├── annotations/              # Dataset annotations (COCO-style or JSON)
@@ -48,7 +48,7 @@ Place your dataset in the data/ folder. Your dataset must have the following str
 ├── lightning_logs/                # Logs from model training
 ├── requirements.txt               # Dependencies
 └── train_huggingface_detr_on_custom_dataset.ipynb  # Training notebook
-
+```
 
 Step 4: Run the Jupyter Notebook
 Launch the Jupyter Notebook server and open the train_huggingface_detr_on_custom_dataset notebook:
