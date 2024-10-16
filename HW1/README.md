@@ -23,14 +23,14 @@ git clone <your-repo-url>
 cd <your-project-folder>
 ```
 
-### **Step 2: Install Dependencies
+### **Step 2: Install Dependencies**
 (Optional) Activate your virtual environment
 Then, install the required packages:
 ```
 pip install -r requirements.txt
 ```
 
-### **Step 3: Prepare the Dataset
+### **Step 3: Prepare the Dataset**
 Ensure that your dataset is placed in the data/ folder, following the structure below:
 
 ```
@@ -61,7 +61,7 @@ Ensure that your dataset is placed in the data/ folder, following the structure 
 └── train_huggingface_detr_on_custom_dataset.ipynb  # Training notebook
 ```
 
-### **Step 4: Run the Jupyter Notebook
+### **Step 4: Run the Jupyter Notebook**
 Launch the Jupyter Notebook server and open the training notebook:
 Load the DETR model.
 Load and preprocess your dataset.
